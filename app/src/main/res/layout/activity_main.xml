@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-60dp"
+            android:paddingHorizontal="5dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/helvetica_bold"
+            android:text="Welcome!"
+            android:textColor="#202020"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/helvetica"
+            android:text="Team Aurtistic is all about you."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/helvetica"
+            android:text="We Believe that Autism is beautiful and seeing the world through the eyes  of an autistic person is vision to behold. "
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="95dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@null"
+            android:text="Continue ->"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            app:backgroundTint="@null" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
